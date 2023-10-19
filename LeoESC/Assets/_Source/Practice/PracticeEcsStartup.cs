@@ -14,7 +14,6 @@ namespace Client {
                 .ConvertScene()
                 .Add(new EnemySpawnerSystem())
                 .Add(new EnemySystem())
-                .Add (new Leopotam.EcsLite.UnityEditor.EcsWorldDebugSystem ())
                 .Init ();
         }
 

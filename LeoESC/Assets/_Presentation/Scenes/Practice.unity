@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 632416052}
   - component: {fileID: 632416051}
   m_Layer: 0
-  m_Name: Floot
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,8 +456,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193296494}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.44332364, y: 0.00404671, z: -0.0019830777, w: 0.8963503}
-  m_LocalPosition: {x: 0.9870609, y: 11.592213, z: -8.204628}
+  m_LocalRotation: {x: -0.32149267, y: -0.0051155523, z: 0.0017369103, w: -0.94689673}
+  m_LocalPosition: {x: -0.123055816, y: 15.084237, z: -16.205645}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -559,6 +559,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convertMode: 0
   customWorld: 
+--- !u!1 &1850215166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2108617485019525205, guid: 50d10e3b0639a964dbb4be54d7337f85, type: 3}
+  m_PrefabInstance: {fileID: 8722618608874223351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1850215173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850215166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a1a9e3cc0d2b6419dd0e27ad15a0b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &1878452924
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,15 +666,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6912234585304136447, guid: 50d10e3b0639a964dbb4be54d7337f85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.85
+      value: -9.2
       objectReference: {fileID: 0}
     - target: {fileID: 6912234585304136447, guid: 50d10e3b0639a964dbb4be54d7337f85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.373916
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6912234585304136447, guid: 50d10e3b0639a964dbb4be54d7337f85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.62
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6912234585304136447, guid: 50d10e3b0639a964dbb4be54d7337f85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -689,7 +707,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2108617485019525205, guid: 50d10e3b0639a964dbb4be54d7337f85, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1850215173}
   m_SourcePrefab: {fileID: 100100000, guid: 50d10e3b0639a964dbb4be54d7337f85, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
